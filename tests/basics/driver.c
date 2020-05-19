@@ -13,7 +13,9 @@ static FILE *mytmpfile ();
 
 int main ()
 {
-  return 0;
+    log_set_level(LOG_TRACE);
+    log_trace("Hello, I'm a tiny C logger.");
+    return 0;
 }
 
 #ifdef _WIN32

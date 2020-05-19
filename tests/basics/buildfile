@@ -1,0 +1,3 @@
+import libs = liblog%lib{log}
+
+exe{driver}: {h c}{**} $libs testscript{**}

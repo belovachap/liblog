@@ -1,0 +1,6 @@
+$out_root/
+{
+  include liblog/
+}
+
+export $out_root/liblog/$import.target

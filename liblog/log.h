@@ -1,3 +1,7 @@
+#pragma once
+
+#include <liblog/export.h>
+
 /**
  * Copyright (c) 2017 rxi
  *
